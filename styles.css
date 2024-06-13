@@ -54,6 +54,7 @@ h1, h2, h3{
 	/* use a web font here (instructions on page) */
 	font-family: var(--heading-fonts);
 	/* make the heading text all small caps style */
+	font-variant: small-caps; 
 }
 
 h2{
@@ -66,6 +67,7 @@ h3{
 	margin: 0;
 	padding: 4px;
 	/* add an underline like the one on the h2s to the h3s, but make it solid and mint color */
+	text-decoration: solid underline var(--mint) 4px; 
 }
 
 nav{
@@ -84,6 +86,7 @@ nav a{
 	padding: 1rem;
 	background-color: var(--tiffany);
 	/* set the font color to #222 (--dk-gray) */
+	
 	/* center align the text */
 	/* remove the underline */
 	/* make the font's size 1.2rem */
